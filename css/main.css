@@ -29,7 +29,7 @@
 
 @font-face {
     font-family: arsenal_f;
-    src: url(../fonts/arsenal-regular.woff2);
+    src: url(/Parallax-landing/fonts/arsenal-regular.woff2);
 }
 
 body {
@@ -116,9 +116,9 @@ body {
     z-index: -1;
     border: 4px solid rgba(225, 255, 255, 0);
     border-radius: 8px;
-    /* border-image: linear-gradient(to right, #f10303e8 0%, #020202 110%) 1; */
+    border-image: linear-gradient(to right, #f10303e8 0%, #020202 110%) 1;
     overflow: hidden;
-    box-shadow: INSET 0px 0px 10px 10px rgba(203, 35, 35, 0.824);
+   
     
 }
 .cursor__image {
